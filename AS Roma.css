@@ -1,0 +1,709 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("sc.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+/*navbar*/
+
+.navbar {
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+ }
+
+a {
+	color: yellow;
+	text-decoration: none;
+	border-right: thick solid yellow;
+	padding: 10px 20px;
+	display: inline-block;
+}
+
+a:hover {
+	color: black;
+}
+
+.news {
+	border-left: thick solid yellow;
+}
+
+.logo {
+	margin-left: 535px;
+	margin-top: 90px;
+}
+
+/*header*/
+
+.header {
+	margin: 100px 260px;
+	display: inline-block;
+	height: 6300px;
+	width: 800px;
+	background-color: white;
+}
+
+.logoheader {
+	display: inline-block;
+	height: 200px;
+	width: 800px;
+	background: url(header.jpg);
+	background-repeat: no-repeat;
+	background-size: 800px;
+}
+
+/*news*/
+
+.picnews {
+	height: 260px;
+	width: 650px;
+	border: solid yellow;
+	margin-top: 50px;
+}
+
+.strootman {
+	background: url(breakingnews.jpg);
+	background-repeat: no-repeat;
+	background-size: 650px 260px;
+	margin-left: 70px;
+}
+
+.marquinhos {
+	height: 260px;
+	width: 650px;
+	background: url(marquinhos.jpg);
+	background-repeat: no-repeat;
+	background-size: 650px 260px;
+	margin-left: 70px;
+}
+
+.desantis {
+	height: 260px;
+	width: 650px;
+	background: url(desantis.jpg);
+	background-repeat: no-repeat;
+	background-size: 650px 260px;
+	margin-left: 70px;
+}
+
+.benatia {
+	height: 260px;
+	width: 650px;
+	background: url(benatia.jpg);
+	background-repeat: no-repeat;
+	background-size: 650px 260px;
+	margin-left: 70px;
+}
+
+.morenews {
+    height: 120px;
+	width: 650px;
+	margin-top: 50px;
+	margin-left: 70px;
+	background-color: red;
+	color: yellow;
+}
+
+.newslist {
+	margin-left: 30px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	font-family: "Joti One",cursive;
+}
+
+h2 {
+	text-align: center;
+	font-family: "Joti One",cursive;
+}
+
+hr {
+	background-color: black;
+	width: 90%;
+	height: 5px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+h3 {
+	margin-top: 20px;
+	color: red;
+	margin-left: 70px;
+	font-family: "Joti One",cursive;
+}
+
+/*team*/
+
+.team {
+	display: inline;
+}
+
+.teampic {
+	height: 50px;
+	width: 50px;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.defensive {
+	margin-top: 30px;
+}
+
+.coach {
+	background: url(rudigarcia.jpg);
+	margin-left: 70px;
+	background-size: 50px 50px;
+	height: 50px;
+	width: 50px;
+	border-radius: 20px;
+}
+
+
+.lobont {
+	background: url(lobont.jpg);
+	background-size: 50px 50px;
+	margin-left: 70px;
+}
+
+.scorubski {
+	background: url(scorubski.jpg);
+	margin-left: 90px;
+	background-size: 50px 50px;
+}
+
+.balzaretti {
+	background: url(Balzaretti.jpg);
+	background-size: 50px 50px;
+	margin-left: 70px;
+}
+
+.dodo {
+	background: url(dodo.jpg);
+	background-size: 50px 50px;
+	margin-top: 0px;
+	margin-left: 90px;
+}
+
+.castan {
+	background: url(castan.jpg);
+	background-size: 50px 50px;
+	margin-top: 0px;
+	margin-left: 90px;
+}
+
+.burdisso {
+	background: url(burdisso.jpg);
+	background-size: 50px 50px;
+	margin-top: 0px;
+	margin-left: 90px;
+}
+
+.benatiateam {
+	background: url(benatia.jpg);
+	background-size: 50px 50px;
+	margin-top: 0px;
+	margin-left: 90px;
+}
+
+.maicon {
+	background: url(maicon.jpg);
+	background-size: 50px 50px;
+	margin-top: 25px;
+	margin-left: 69px;
+}
+
+.romagnoli {
+	background: url(romagnoli.jpg);
+	background-size: 50px 50px;
+	margin-top: 0px;
+	margin-left: 90px;
+}
+
+.derossi {
+	background: url(derossi.jpg);
+	background-size: 50px 50px;
+	margin-top: 0px;
+	margin-left: 70px;
+}
+
+.pianic {
+	background: url(pianic.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+
+.kevin {
+	background: url(kevin.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+.florenzi {
+	background: url(florenzi.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+.marquinho {
+	background: url(marquinho.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+.bradley {
+	background: url(bradley.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 69px;
+}
+
+.totti {
+	background: url(totti.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 70px;
+}
+
+.lamela {
+	background: url(lamela.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+
+.osvaldo {
+	background: url(osvaldo.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+.destro {
+	background: url(destro.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+.borriello {
+	background: url(borriello.jpg);
+	background-size: 50px 50px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+hr {
+	background-color: black;
+	width: 90%;
+	height: 5px;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+/*calendar*/
+
+.calendar {
+	height: 830px;
+	width: 650px;
+	background-color: rgb(0,0,0);
+	margin-left: 70px;
+	margin-top: 30px;
+}
+
+.fixture {
+	display: inline-block;
+	height: 70px;
+	width: 159px;
+	color: yellow;
+	margin-top:20px;
+}
+
+.team1 {
+	background: url(atalanta.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team2 {
+	background: url(bologna.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team3 {
+	background: url(cagliari.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team4 {
+	background: url(catania.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team5 {
+	background: url(chievo.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team6 {
+	background: url(fiorentina.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team7 {
+	background: url(genoa.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team8 {
+	background: url(hellas.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team9 {
+	background: url(inter.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team10 {
+	background: url(juventus.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team11 {
+	background: url(lazio.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team12 {
+	background: url(milan.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team13 {
+	background: url(livorno.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team14 {
+	background: url(napoli.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team15 {
+	background: url(parma.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team16 {
+	background: url(sampdoria.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team17 {
+	background: url(torino.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team18 {
+	background: url(udinese.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team19 {
+	background: url(atalanta.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team20 {
+	background: url(bologna.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team21 {
+	background: url(cagliari.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team22 {
+	background: url(catania.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team23 {
+	background: url(chievo.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team24 {
+	background: url(fiorentina.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team25 {
+	background: url(genoa.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team26 {
+	background: url(hellas.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team27 {
+	background: url(inter.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team28 {
+	background: url(juventus.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team29 {
+	background: url(lazio.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team30 {
+	background: url(milan.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team31 {
+	background: url(livorno.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team32 {
+	background: url(napoli.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team33 {
+	background: url(parma.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+.team34 {
+	background: url(sampdoria.png);	
+	background-size: 70px 70px;
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+/*transfers*/
+
+
+.transfer {
+	background-color: red;
+	color: yellow;
+	font-size: 30px;
+	height: 50px;
+	width: 650px;
+	margin-left: 70px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+.skorupskyin {
+	background: url(skorupski.jpg);
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 650px;
+	background-size: 500px 200px;
+	margin-left: 150px;
+}
+
+.maiconin {
+	background: url(mai.jpg);
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 650px;
+	background-size: 500px 200px;
+	margin-left: 150px;
+}
+
+.jedfajin {
+	background: url(jedfajroma.jpg);
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 650px;
+	background-size: 500px 200px;
+	margin-left: 150px;
+}
+
+.benatiain {
+	background: url(benroma.jpg);
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 650px;
+	background-size: 500px 200px;
+	margin-left: 150px;
+}
+
+.strootmanin {
+	background: url(stroo.jpg);
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 650px;
+	background-size: 500px 200px;
+	margin-left: 150px;
+}
+
+.marquinhosout {
+    background: url(marquinhos.jpg);
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 650px;
+	background-size: 500px 200px;
+	margin-left: 150px;
+}
+
+.stekelenburgout {
+	background: url(steke.jpg);
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 650px;
+	background-size: 500px 200px;
+	margin-left: 150px;
+}
+
+.bojanout {
+	background: url(bojan.jpg);
+	background-repeat: no-repeat;
+	height: 260px;
+	width: 650px;
+	background-size: 500px 200px;
+	margin-left: 150px;
+}
+
+/*footer*/
+
+footer {
+	height: 400px;
+	width: 800px;
+	background-color: rgba(0,0,0,0.3);
+	color: white;
+	margin-left: 0px;
+	margin-top: 53px;
+}
+
+.pepsi {
+	height: 200px;
+	width: 200px;
+	margin-left: 70px;
+	margin-top: 70px;
+}
+
+.sky {
+	height: 200px;
+	width: 200px;
+	float: right;
+	margin-top: 70px;
+}
+
+@media screen and (max-width: 960px) {
+	body {
+		background-repeat: repeat;
+		background-size: 960px;
+	}
+	header {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body {
+			background-size: 600px;
+	}
+}
+
+@media screen and (max-width: 200px) {
+	body {
+		background-repeat: repeat;
+		background-size: 300px 500px;
+	}
+}
